@@ -1,0 +1,167 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-bold', sans-serif;
+    
+}
+.big-heading{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+
+.container-fluid{
+    padding: 7% 15%;
+}
+#title {
+    background: #ff4c68;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* navbar aera */
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem; 
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-family: 'Montserrat-light';
+    font-size: 1.2rem;
+}
+.downlode-btn{
+    margin: 5% 3% 5% 0%;
+    
+}
+.positionit{
+   position: relative; 
+    
+}
+.doggy-img{
+    width: 60%;
+    transform: rotate(25deg);
+  position: absolute;
+  right: 3%;
+}
+
+/* features */
+#features{
+   
+ 
+   background-color: white;
+   position: relative;
+   z-index: 1;
+
+}
+.features-titels{
+    
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.features-p{
+    color: #8f8f8f;
+
+}
+.features-icon{
+    color: #ef8172;
+    margin: 0% 20%;
+}
+.features-icon:hover{
+    color: #ff4c68;
+}
+.features-box{
+    
+    padding-top: 3rem;
+    
+}
+
+/* Testimonials */
+#testimonials{
+    
+    background-color:#ef8172 ;
+    color: #fff;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.carousel-item{
+   
+padding: 7% 15%;
+}
+.testimonials-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* press */
+#press{
+    background-color: #ef8172;
+    
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+/* pricing */
+#pricing{
+    padding: 100px;
+    
+}
+.pricing-heading{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+/* medie query */
+@media(max-width:1150px){
+
+#title {
+        text-align:center;
+    }
+.doggy-img{
+    position: static;
+    transform: rotate(0);
+    }
+}
+/* call to action */
+#cta{
+    background-color: #ff4c68;
+
+    
+
+}
+.cta-text{
+    font-size: 3.5rem;
+}
+.cta-class{
+    padding: 5% ;
+    line-height: 2;
+}
+#footer{
+    background-color: #fff;
+    
+    padding: 3%;
+}
+.fa-brands{
+    margin: 0.75rem;
+}
